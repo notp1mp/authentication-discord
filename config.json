@@ -1,0 +1,7 @@
+{
+  "TOKEN": "token del bot",
+  "SECRET": "auth.discord",
+  "clientID": "ID del cliente",
+  "clientSecret": "cliente secreto",
+  "callbackURL": "https://nombre-del-sitio-web.dominio"
+}
