@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Mi sitio web</title>
+</head>
+<body>
+<% if(user) {%>
+<h1>Hola <%-user.tag-%>
+<% } else {%>
+<a href="/login"><button>Iniciar sesión</button></a>
+<%}%>
+</body>
+</html>
