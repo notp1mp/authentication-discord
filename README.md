@@ -4,7 +4,7 @@
 
 ### Nota 2
 
-> Para que funcione el redirect_uri con la autenticación de Discord, es necesario que coloquen en 'auth' (https://discord.com/developers/applications) la url de el sitio web.
+> Para que funcione el redirect_uri con la autenticación de Discord en su sitio web, es necesario que coloquen en 'auth' (https://discord.com/developers/applications) la url de el sitio web.
 
 Ejemplo:
 > https://el-nombre-del-sitio-web.dominio/login
