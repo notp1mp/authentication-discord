@@ -8,15 +8,12 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 
-
+const { SECRET, TOKEN } = require('./config.json')
 
 client.on('ready', () => console.log(`Bot listo! -> ${client.user.tag}`))
+client.login(TOKEN)
 
 
-const config = {
-  "TOKEN": "token bot",
- "SECRET": "auth.discord"
-}
 
 // settings
 
